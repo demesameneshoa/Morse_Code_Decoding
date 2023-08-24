@@ -19,6 +19,13 @@ def decode_morse(morse_code)
 end
 
 
-decoded_value = decode_char('..')
+charachter = '._'
+puts decode_char(charachter)
 
-puts decoded_value
+word = '-- -.--'
+puts decode_word(word)
+
+sentence = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
+puts decode_morse(sentence)
+
+
